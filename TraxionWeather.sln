@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraxionWeather.UWP", "Traxi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraxionWeather.Android", "TraxionWeather\TraxionWeather.Android\TraxionWeather.Android.csproj", "{A4664164-6677-4637-B369-0B49FA66D3D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraxionWeather", "TraxionWeather\TraxionWeather\TraxionWeather.csproj", "{DAEADA20-2E1B-4CBC-9789-526CAA605D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraxionWeather", "TraxionWeather\TraxionWeather\TraxionWeather.csproj", "{DAEADA20-2E1B-4CBC-9789-526CAA605D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraxionWeather.UnitTest", "TraxionWeather.UnitTest\TraxionWeather.UnitTest.csproj", "{E3694D06-8B23-4CA3-BF60-56C557823E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,22 @@ Global
 		{DAEADA20-2E1B-4CBC-9789-526CAA605D60}.Release|x86.ActiveCfg = Release|Any CPU
 		{DAEADA20-2E1B-4CBC-9789-526CAA605D60}.Release|x86.Build.0 = Release|Any CPU
 		{DAEADA20-2E1B-4CBC-9789-526CAA605D60}.Release|x86.Deploy.0 = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|ARM.Build.0 = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|x64.Build.0 = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3694D06-8B23-4CA3-BF60-56C557823E2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

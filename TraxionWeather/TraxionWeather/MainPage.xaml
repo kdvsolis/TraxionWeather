@@ -3,11 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TraxionWeather.MainPage">
 
-    <StackLayout x:Name="parent">
+    <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Weather App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Weather for the last 5 days" HorizontalTextAlignment="Center" FontSize="Title" Padding="20,10,20,10"/>
+        <StackLayout x:Name="parent">
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Weather details" HorizontalTextAlignment="Start" FontSize="Title" Padding="20,10,20,10"/>
+            <Label x:Name="dateWord" Text="" HorizontalTextAlignment="Start" FontSize="Subtitle" Padding="20,5,5,5"/>
+            <Label Text="{Binding overallLocationInfo.general_location, Mode=TwoWay, StringFormat='Location: {0}'}" HorizontalTextAlignment="Start" FontSize="Subtitle" Padding="20,5,5,5"/>
+            <Label Text="{Binding overallWeatherInfo.current.weather[0].main, Mode=TwoWay, StringFormat='Weather: {0}'}" HorizontalTextAlignment="Start" FontSize="Subtitle" Padding="20,5,5,5"/>
+            <Label Text="{Binding overallWeatherInfo.current.weather[0].description, Mode=TwoWay, StringFormat='Description: {0}'}" HorizontalTextAlignment="Start" FontSize="Subtitle" Padding="20,5,5,5"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
